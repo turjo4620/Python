@@ -35,3 +35,4 @@ print("""Your Learning Path :
 \n \t- Data Engineering 
 \n \t- AI""") # We can use triple quotes
 
+#This was whole the basics
