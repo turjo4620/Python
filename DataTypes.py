@@ -21,3 +21,4 @@ g = False #bool
 h = None #nothing
 i = "" #not same as none / it is string having nothing
 j = " " #space string
+
