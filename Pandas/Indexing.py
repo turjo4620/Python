@@ -14,6 +14,7 @@ print(reviews['country'][0])
 
 print(reviews)
 
+# iloc is row first so, this one will select the first row
 print(reviews.iloc[0])
 
 # loc and iloc are row-first , column-second!
@@ -28,3 +29,32 @@ print(reviews.iloc[-5:]) # will select the last 5 elements
 
 # label based selection
 print(reviews.loc[0, 'country'])
+print(reviews.loc[:, ['taster_name', 'taster_twitter_handle', 'points']])
+
+
+# iloc -> 0 : 10 will select 0, ....,9
+# loc -> 0 : 10 will select 0,......,10
+
+
+#conditional selection
+
+# ==
+print(reviews.country == 'Italy')
+# using loc
+print(reviews.loc[reviews.country == 'Italy'])
+# &
+print(reviews.loc[(reviews.country == 'Italy') & (reviews.points >= 90)])
+# |
+print(reviews.loc[(reviews.country == 'Italy') | (reviews.points >= 90)])
+
+# isin 
+print(reviews.loc[reviews.country.isin(['Italy', 'France'])])
+
+# isnull / notnull
+print(reviews.loc[reviews.price.notnull()])
+
+
+# assigning data
+
+reviews['critic'] = 'everyone'
+print(reviews['critic'])
