@@ -51,7 +51,7 @@ Throughout this repository, you will find implementations utilizing:
 I am actively learning, building, and always open to discussing technology, algorithms, and data science opportunities. 
 
 **Turjo Sarkar Prince**  
-🔗 **LinkedIn:** [Insert your LinkedIn URL here]  
+🔗 **LinkedIn:** [[Turjo Sarkar Prince](https://www.linkedin.com/in/turjo-sp/)]  
 🔗 **GitHub:** [@turjo4620](https://github.com/turjo4620)  
 
 ---
