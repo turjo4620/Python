@@ -25,3 +25,38 @@ print(letters) # ['p', 'y', 't', 'h', 'o', 'n']
 # using range
 numbers = list(range(5))
 print(numbers) # [0, 1, 2, 3, 4]
+
+
+# Access and Read
+
+letters = ['a', 'b', 'c']
+
+print(letters[0]) # first item
+print(letters[-1]) # last item 
+
+# slicing -> letters[ start : end + 1]
+print(letters[0 : 3])
+
+# if start from the first item then 
+print(letters[ : 3])
+
+# all the items
+print(letters[ : ])
+
+# unpacking
+
+person = ['Turjo', 21, 'BUET-CSE']
+
+# This is annoying!
+# name = person[0]
+# age = person[1]
+# status = person[2]
+
+name, age, status = person 
+
+print(name)
+print(age)
+print(status)
+
+
+
