@@ -58,5 +58,21 @@ print(name)
 print(age)
 print(status)
 
+# modification
+
+fruits = [1, 2, 3, 4]
+fruits.append(5)
+fruits.insert(2, 5)
+fruits.remove(5) # delete the first one if appears multiple
+fruits.pop() # removes the last element
+
+print(fruits)
+
+
+squares = [x ** 2 for x in range(5)]
+print(squares)
+
+evens = [x for x in range (10) if x % 2 == 0]
+print(evens)
 
 
